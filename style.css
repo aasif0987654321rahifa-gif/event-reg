@@ -1,0 +1,85 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* Header Section */
+header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+header p {
+  margin: 5px 0 0;
+  font-size: 1.1em;
+}
+
+/* Section Styling */
+section {
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Form Styling */
+form input, form select, form button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+form button {
+  background: #27ae60;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+form button:hover {
+  background: #219150;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table, th, td {
+  border: 1px solid #333;
+}
+th {
+  background: #2c3e50;
+  color: #fff;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Footer Section */
+footer {
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+footer p {
+  margin: 5px 0;
+}
